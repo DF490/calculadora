@@ -11,9 +11,9 @@ body{
 
 .contenedor{
     display: grid;
-    grid-template-columns: repeat(2, 1fr);
+    grid-template-columns: repeat(1, 1fr);
     width: 100%;
-    max-width: 650px;
+    max-width: 325px;
     
     gap: 1.5rem;
     background-color: red;
@@ -24,7 +24,7 @@ body{
 }
 
 .botones{    
-    border-radius: 1px;
+    border-radius: 3px;
     background: #3678c4;
     color : #fff;
     cursor: pointer;     
@@ -70,8 +70,9 @@ button:hover{
 }    
 
 .display1{
+    border-radius: 3px;
     background-color: #000;        
-    border: solid 2px blue;
+    border: solid 2px #2263ad;
     text-align: right;    
     padding: 1rem;    
     width: 80%;     
@@ -81,7 +82,7 @@ button:hover{
 
 .caseMain{
     padding: .5rem;
-    border: solid 2px blue;
+    border: none;
     display: grid;
     gap: 10px;    
 }
@@ -92,11 +93,12 @@ button:hover{
     place-items: center;
     gap: .5rem;
     width: 325px;
-    border: solid 2px blue;
+    border: none;
     padding: .5rem;
 }
 
 .display2{
+    border-radius: 3px;
     width: 85%;
     grid-column: 1 / -1;    
     text-align: right;
@@ -104,7 +106,8 @@ button:hover{
     color: #fff;
     padding: 1.5rem;
     font-size: 1.5rem;
-    font-family: monospace;        
+    font-family: monospace;
+    border: solid 2px #2263ad;        
 }
 
 #cero{
